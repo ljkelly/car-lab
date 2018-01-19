@@ -8,7 +8,7 @@ TL;DR: [video of the car](https://www.youtube.com/watch?v=azzE5iQZgSc) // [photo
 
 A photo of the final car:
 
-![](https://raw.githubusercontent.com/ljkelly/car-lab/master/images/final%20car.jpg)
+![](images/final%20car.jpg)
 
 You can find more photos [on Flickr](https://www.flickr.com/photos/rinoshea/albums/72157651516510906).
 
@@ -16,7 +16,7 @@ You can find more photos [on Flickr](https://www.flickr.com/photos/rinoshea/albu
 
 - **[Stage 2: Line Following](https://github.com/ljkelly/car-lab/blob/master/Stage%202%20Report%20-%20Path%20Following.pdf):** We attached a VGA camera on a laser-etched acrylic mast, aimed at the floor. Using it, we tracked a black line on a light floor and controlled the car's steering to cause it to follow the line around a track. The car with the mast, camera, and relevant circuitry is shown below:
 
-![](https://raw.githubusercontent.com/ljkelly/car-lab/master/images/line%20following%20car.jpg)
+![](images/line%20following%20car.jpg)
 
 - **[Stage 3: Autonomous Obstacle Avoidance](https://github.com/ljkelly/car-lab/blob/master/Stage%203%20Report%20-%20Autonomous%20Obstacle%20Avoidance.pdf):** The third stage was an independent project. We chose to implement obstacle avoidance. We mounted two sonar rangefinders to a rotating platform on the top of the car to monitor the car's surroundings. Using that data, we instructed the car to drive forward and avoid obstacles in the process, navigating around them forward and backwards if necessary. The surroundings data was also broadcast over a wireless RS232 connection to a laptop. The PSoC code used to achieve this navigation can be found in [`main.c`](https://github.com/ljkelly/car-lab/blob/master/main.c). The Matlab script we wrote to parse and plot the surroundings data is [`surroundings_mapping_script.m`](https://github.com/ljkelly/car-lab/blob/master/surroundings_mapping_script.m).
 
@@ -24,6 +24,6 @@ You can find more photos [on Flickr](https://www.flickr.com/photos/rinoshea/albu
 
 A detail of the sonar platform is shown below, followed by an example of the surroundings data plot:
 
-![](https://raw.githubusercontent.com/ljkelly/car-lab/master/images/sensor%20platform.jpg)
+![](images/sensor%20platform.jpg)
 
-![](https://raw.githubusercontent.com/ljkelly/car-lab/master/images/surroundings%20plot.png)
+![](images/surroundings%20plot.png)
